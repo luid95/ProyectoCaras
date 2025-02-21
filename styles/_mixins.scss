@@ -1,0 +1,11 @@
+// Mixin para una transición suave
+@mixin transition($property, $duration: 0.3s, $timing: ease) {
+  transition: $property $duration $timing;
+}
+
+// Mixin para centrar contenido
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
