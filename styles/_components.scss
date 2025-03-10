@@ -75,7 +75,7 @@
 }
 
 .subscription-form button:hover {
-    background-color: darken($color-primary, 10%);
+    background-color: adjust-color($color-primary, $lightness: -10%);
 }
 
 //Estilos para los enlaces de redes sociales
@@ -91,4 +91,20 @@
 
 .social-media a:hover {
     text-decoration: underline;
+}
+
+// Estilos para mensajes de error y éxito
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.success-message {
+    color: green;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
 }

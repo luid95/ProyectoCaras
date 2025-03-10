@@ -199,4 +199,19 @@ footer {
 
 .social-media a:hover {
   text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
 }/*# sourceMappingURL=main.css.map */
